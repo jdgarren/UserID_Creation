@@ -17,7 +17,7 @@ now = datetime.now()
 today = now.strftime("%m%d%Y")
 #user details could be prompted for for, or included as kwargs if changed to a function.
 usrId = 'fz0009'
-pwrd = 'smile123'
+pwrd = input('Enter the password for ' + usrId +":")
 #Emulator set to run in background, can change to True to debug if errors
 em = Emulator(visible=False)
 em.connect('dcft.dcf.state.fl.us')

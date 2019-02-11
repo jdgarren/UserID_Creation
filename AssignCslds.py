@@ -16,7 +16,7 @@ rn = int(rn)
 now = datetime.now()
 today = now.strftime("%m%d%Y")
 usrId = 'fz0009'
-pwrd = 'smile123'
+pwrd = input('Enter the password for ' + usrId +":")
 em = Emulator(visible=False)
 em.connect('dcft.dcf.state.fl.us')
 em.wait_for_field()
