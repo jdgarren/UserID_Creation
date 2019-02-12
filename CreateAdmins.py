@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from openpyxl import load_workbook
 from datetime import datetime, date 
 # use x3270 so you can see what is going on
-wb1 = load_workbook(r'C:\Users\garren-james\Python Projects\AMS_Stress\AMS_User_IDs.xlsx')
+wb1 = load_workbook(r'C:\Users\garren-james\Python Projects\UserID_Creation_Process\AMS_User_IDs.xlsx')
 ws1 = wb1['RACF User ID']
 ws2 = wb1['Admins']
 x = 1
